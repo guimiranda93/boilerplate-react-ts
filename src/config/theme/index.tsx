@@ -1,27 +1,27 @@
-import { createTheme } from '@mui/material/styles'
+import { createTheme } from '@mui/material/styles';
 
 declare module '@mui/material/styles' {
   interface Theme {
     lightgrey: {
-      main: string
-    }
+      main: string;
+    };
     morelightgrey: {
-      main: string
-    }
+      main: string;
+    };
     lightgreyTransparent: {
-      main: string
-    }
+      main: string;
+    };
   }
   interface ThemeOptions {
     lightgrey?: {
-      main?: string
-    }
+      main?: string;
+    };
     morelightgrey?: {
-      main?: string
-    }
+      main?: string;
+    };
     lightgreyTransparent?: {
-      main?: string
-    }
+      main?: string;
+    };
   }
 }
 
@@ -58,6 +58,6 @@ const theme = createTheme({
       main: '#FFC107',
     },
   },
-})
+});
 
-export default theme
+export default theme;

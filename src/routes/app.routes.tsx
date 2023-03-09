@@ -1,12 +1,12 @@
-import { Route, Routes } from 'react-router-dom'
-import Home from '../views/Home'
+import { Route, Routes } from 'react-router-dom';
+import Home from '../views/Home';
 
 const AppRoutes = () => {
   return (
     <Routes>
       <Route path='/' element={<Home />} />
     </Routes>
-  )
-}
+  );
+};
 
-export default AppRoutes
+export default AppRoutes;
